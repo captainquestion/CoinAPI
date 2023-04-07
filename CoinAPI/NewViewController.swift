@@ -14,7 +14,7 @@ class NewViewController: UIViewController {
     @IBOutlet weak var currentLabel: UILabel!
     @IBOutlet weak var thePicker: UIPickerView!
     
-    var coinManager = CoinManager()
+    var coinManager = Manager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,9 +25,9 @@ class NewViewController: UIViewController {
     }
 }
 
-//MARK: - CoinManagerDelegate
+//MARK: - ManagerDelegate
 
-extension NewViewController: CoinManagerDelegate {
+extension NewViewController: ManagerDelegate {
     
     func didUpdatePrice(price: String, currency: String) {
         

@@ -7,14 +7,14 @@
 
 import Foundation
 
-protocol CoinManagerDelegate {
+protocol ManagerDelegate {
     func didUpdatePrice(price: String, currency: String)
     func didFailWithError(error: Error)
 }
 
-struct CoinManager {
+struct Manager {
     
-    var delegate: CoinManagerDelegate?
+    var delegate: ManagerDelegate?
     
     let baseURL = "https://rest.coinapi.io/v1/exchangerate/BTC"
     let apiKey = "C97FBA91-D92B-4C7C-BBF3-559167BEE06C"
