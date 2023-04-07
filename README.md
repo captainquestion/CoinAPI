@@ -4,4 +4,4 @@
 
 ***App Demo***
 
-<img src="Demo/Demo.gif">
+<img src="Demo/Demo.gif" width="300">
