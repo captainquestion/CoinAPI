@@ -1,3 +1,7 @@
 # CoinAPI
 
-##Test
+##Get the current Bitcoin rate using CoinAPI.
+
+***App Demo***
+
+<img src="Demo/Demo.gif">
